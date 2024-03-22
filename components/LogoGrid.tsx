@@ -10,7 +10,6 @@ export default function LogoGrid({ id, logosLarge, logosMedium, logosSmall, text
       {logosLarge && (
         <div className={styles.gridLarge}>
           {logosLarge.map((logo, index) => {
-            console.log(logo);
             return (
               <div className={styles.gridItem}>
                 {logo.href === '' || logo.href === null ? (
