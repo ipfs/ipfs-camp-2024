@@ -8,7 +8,7 @@ export const airtableFormattedFieldsMap = {
   'Talk or Track?': 'type',
   'Talk or Track': 'type',
   'Is this a submission for a talk or track?': 'type',
-  'Start Time': 'startTime', // date + time
+  'talkStartTime': 'startTime', // date + time
   'Youtube Link': 'videoLink',
   TrackLink: 'trackLink',
   'Twitter Profile URL': 'twitterUrl',
@@ -70,7 +70,7 @@ export const airtableFormattedFieldsMap = {
   'Discussion Points': 'discussionPoints',
   Location: 'location',
   Priority: 'priority',
-  Time: 'time', // date + time
+  trackTime: 'time', // date + time
 };
 
 //To Do: update this to handle different timezone formats
