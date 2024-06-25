@@ -1,4 +1,4 @@
-import { ScheduleStatusEnum, TrackOrTalkEnum } from '@root/common/types';
+import { ScheduleStatusEnum, TrackOrTalkEnum, TalkStatusEnum } from '@root/common/types';
 import { formatUTCDateString, formatUTCTime } from '@root/common/utilities';
 import moment from 'moment';
 
@@ -146,12 +146,13 @@ export function formatAirtableMetaData({ records, timezone }) {
     return timeA - timeB;
   });
 
+
   // Filter out Talks or Tracks with status that is not confirmed or accepted
   const acceptedRecords = formattedRecords?.filter((record) => {
     if (record.type === TrackOrTalkEnum.TRACK) {
       return record.trackStatus === ScheduleStatusEnum.CONFIRMED;
     } else if (record.type === TrackOrTalkEnum.TALK) {
-      return record.status === ScheduleStatusEnum.ACCEPTED_BY_TRACK_LEAD;
+      return record.status === TalkStatusEnum.CONFIRMED
     } else {
       // Ignore records with unknown or missing type
       return false;

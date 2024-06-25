@@ -109,6 +109,11 @@ export enum ScheduleStatusEnum {
   CONFIRMED = 'Confirmed',
 }
 
+
+export enum TalkStatusEnum {
+  CONFIRMED = 'Confirm & Send Automatic Email',
+}
+
 export enum TrackOrTalkEnum {
   TRACK = 'Track',
   TALK = 'Talk',
