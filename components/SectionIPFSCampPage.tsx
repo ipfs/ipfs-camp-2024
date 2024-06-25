@@ -378,11 +378,11 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
           </div>
         </section>
 
-        {/* <h1 className={styles.h3} id="schedule" style={{ paddingBottom: '2rem', color: 'var(--color-white)' }}>
+        <h1 className={styles.h3} id="schedule" style={{ paddingBottom: '2rem', color: 'var(--color-white)' }}>
           Schedule
         </h1>
 
-        <ScheduleIPFSCamp2024 scheduleData={scheduleData} /> */}
+        <ScheduleIPFSCamp2024 scheduleData={scheduleData} />
 
         <div style={{ display: 'grid', rowGap: '8rem' }}>
           <div style={{ display: 'grid', rowGap: '2rem' }}>
