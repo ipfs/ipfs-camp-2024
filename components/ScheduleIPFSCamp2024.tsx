@@ -20,16 +20,12 @@ export default function ScheduleIPFSCamp2024({ scheduleData }) {
 
   useEffect(() => {
     if (scheduleData) {
-      const organizeData = async () => {
         const formattedAirtableData = formatAirtableMetaData(scheduleData);
 
         const fetchedSpeakers = getSpeakers(formattedAirtableData);
 
         setFormatedSchedule(formattedAirtableData);
         setSpeakers(fetchedSpeakers);
-      };
-
-      organizeData();
     }
   }, [scheduleData]);
 
