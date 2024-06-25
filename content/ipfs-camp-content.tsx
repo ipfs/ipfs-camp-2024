@@ -22,10 +22,10 @@ export const IPFS_CAMP_2024_NAVIGATION_CONTENT = {
       name: 'Tickets',
       href: '#tickets',
     },
-    // {
-    //   name: 'Schedule',
-    //   href: '#schedule',
-    // },
+    {
+      name: 'Schedule',
+      href: '#schedule',
+    },
     // {
     //   name: 'Speakers',
     //   href: '#speakers',
