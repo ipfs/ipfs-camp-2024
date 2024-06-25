@@ -7,7 +7,7 @@ export const airtableFormattedFieldsMap = {
   Title: 'title',
   'Talk or Track?': 'type',
   'Talk or Track': 'type',
-  'IS THIS A TRACK OR A TALK': 'type',
+  'Is this a submission for a talk or track?': 'type',
   'Start Time': 'startTime', // date + time
   'Youtube Link': 'videoLink',
   TrackLink: 'trackLink',
