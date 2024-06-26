@@ -39,7 +39,7 @@ export default function Schedule({ calendarData, scheduleId, scheduleStyle }: an
         });
 
         if (eventData) {
-          setSelectedEvent((eventData as any).trackDetails);
+          setSelectedEvent({...(eventData as any).trackDetails, records: (eventData as any)?.records });
           setIsOverlayOpen(true);
           document.getElementById(scheduleId)?.scrollIntoView({ behavior: 'smooth' });
         } else {
@@ -78,7 +78,9 @@ export default function Schedule({ calendarData, scheduleId, scheduleStyle }: an
   }, []);
 
   const handleOverlayClick = () => {
+    setSelectedEvent(null);
     setIsOverlayOpen(false);
+    window.history.pushState({}, '', window.location.pathname);
   };
 
   const handleContainerClick = () => {
