@@ -258,7 +258,7 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                   </h3>
                   <p className={styles.trackDescription}>Discover how IPFS is being used to protect public records and support human rights initiatives worldwide.</p>
                 </div>
-                <div className={styles.trackContent}>
+                {/* <div className={styles.trackContent}>
                   <h3 className={styles.trackTitle} style={{ paddingBottom: '1rem' }}>
                     AI in 2024: Ethics, Ownership, and Data
                   </h3>
@@ -266,7 +266,7 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                     In this track, we'll explore urgent topics of attribution, ethics, and payment in the age of AI-generated art, music, and text. Then, we’ll dive into how
                     content-addressed data can forge new opportunities for creators and developers.
                   </p>
-                </div>
+                </div> */}
                 <div className={styles.trackContent}>
                   <h3 className={styles.trackTitle} style={{ paddingBottom: '1rem' }}>
                     Climate Resilience and IPFS
@@ -276,7 +276,7 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                     IPFS in environmental monitoring, climate modeling, and disaster response.
                   </p>
                 </div>
-                <div className={styles.trackContent}>
+                {/* <div className={styles.trackContent}>
                   <h3 className={styles.trackTitle} style={{ paddingBottom: '1rem' }}>
                     Syncing Bytes at Scale
                   </h3>
@@ -284,7 +284,7 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                     Dive into the latest techniques and tools for efficiently syncing bytes at scale with IPFS. Learn how to optimize data transfer, ensure data integrity, and
                     reduce bandwidth costs. Whether you're working with scientific, media, or enterprise data, this track has something for anyone working with large-scale data.
                   </p>
-                </div>
+                </div> */}
                 <div className={styles.trackContent}>
                   <h3 className={styles.trackTitle} style={{ paddingBottom: '1rem' }}>
                     Libp2p Day
@@ -295,7 +295,7 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                     libp2p, and discover how you can use this powerful library to build your own networks and applications.
                   </p>
                 </div>
-                <div className={styles.trackContent}>
+                {/* <div className={styles.trackContent}>
                   <h3 className={styles.trackTitle} style={{ paddingBottom: '1rem' }}>
                     IPLD, Databases, and the People Who Love Them
                   </h3>
@@ -303,7 +303,7 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                     Meet the passionate developers and researchers pushing the boundaries of what's possible with IPLD. Learn how experts are IPLD to build more efficient,
                     interoperable databases and data structures, and join the efforts to push IPLD forward.
                   </p>
-                </div>
+                </div> */}
                 <div className={styles.trackContent}>
                   <h3 className={styles.trackTitle} style={{ paddingBottom: '1rem' }}>
                     Startup Showcase
