@@ -139,7 +139,9 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                           Brussels, Belgium <br />
                           July 11-13, 2024
                           <br />
-                          <a className={styles.mapsLink} href="https://maps.app.goo.gl/t1cxA4dFiLKdeoaB6">Radisson Grand Place</a>
+                          <a className={styles.mapsLink} href="https://maps.app.goo.gl/t1cxA4dFiLKdeoaB6">
+                            Radisson Grand Place
+                          </a>
                         </span>
                       </div>
                     </div>
@@ -276,15 +278,15 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                     IPFS in environmental monitoring, climate modeling, and disaster response.
                   </p>
                 </div>
-                {/* <div className={styles.trackContent}>
+                <div className={styles.trackContent}>
                   <h3 className={styles.trackTitle} style={{ paddingBottom: '1rem' }}>
-                    Syncing Bytes at Scale
+                    Gaming & Streaming
                   </h3>
                   <p className={styles.trackDescription}>
-                    Dive into the latest techniques and tools for efficiently syncing bytes at scale with IPFS. Learn how to optimize data transfer, ensure data integrity, and
-                    reduce bandwidth costs. Whether you're working with scientific, media, or enterprise data, this track has something for anyone working with large-scale data.
+                    If it works for gaming, it’ll work for almost anything. Come for a 4 hours of breakthrough talks in the most latency-sensitive, data-intensive area of p2p R&D,
+                    stay for the most fun demos around (games!!), and discussions on how infrastructure lets us re-think an industry.
                   </p>
-                </div> */}
+                </div>
                 <div className={styles.trackContent}>
                   <h3 className={styles.trackTitle} style={{ paddingBottom: '1rem' }}>
                     Libp2p Day
