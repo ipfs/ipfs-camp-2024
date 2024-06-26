@@ -161,6 +161,12 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                 </svg>
               </div>
             </header>
+
+            <h1 className={styles.h3} id="schedule" style={{ paddingBottom: '2rem', color: 'var(--color-white)' }}>
+              Schedule
+            </h1>
+
+            <ScheduleIPFSCamp2024 scheduleData={scheduleData} />
             <div className={styles.videoTitle}>
               <h2 className={styles.centeredSectionTitle}> IPFS Camp 2022 - Recap </h2>
             </div>
@@ -377,12 +383,6 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
             </div>
           </div>
         </section>
-
-        <h1 className={styles.h3} id="schedule" style={{ paddingBottom: '2rem', color: 'var(--color-white)' }}>
-          Schedule
-        </h1>
-
-        <ScheduleIPFSCamp2024 scheduleData={scheduleData} />
 
         <div style={{ display: 'grid', rowGap: '8rem' }}>
           <div style={{ display: 'grid', rowGap: '2rem' }}>
