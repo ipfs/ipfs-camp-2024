@@ -136,7 +136,10 @@ export default function SectionCamppage({ upcomingEvents, scheduleData }) {
                     <div className={styles.diptychHalf}>
                       <div className={styles.centerTextContainer}>
                         <span className={styles.boldText}>
-                          Brussels, Belgium <br /> <br /> July 11-13, 2024
+                          Brussels, Belgium <br />
+                          July 11-13, 2024
+                          <br />
+                          <a className={styles.mapsLink} href="https://maps.app.goo.gl/t1cxA4dFiLKdeoaB6">Radisson Grand Place</a>
                         </span>
                       </div>
                     </div>
