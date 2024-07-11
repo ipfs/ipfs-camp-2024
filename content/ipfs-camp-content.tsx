@@ -26,6 +26,10 @@ export const IPFS_CAMP_2024_NAVIGATION_CONTENT = {
       name: 'Schedule',
       href: '#schedule',
     },
+    {
+      name: 'Talk List',
+      href: '/list',
+    },
     // {
     //   name: 'Speakers',
     //   href: '#speakers',
